@@ -1,0 +1,77 @@
+{
+  "product": "CANmeleon",
+  "mode": "ZLG USBCANFD",
+  "scope_note": "支持 200U / 400U 模式；通道数按硬件与授权选择，性能与精度按表中标注的模式使用。",
+  "sections": [
+    {
+      "title": "通信能力",
+      "rows": [
+        {
+          "label": "CAN 通道",
+          "value": "200U：2 路；400U：4 路 CAN / CAN FD",
+          "notes": "每通道支持发送和接收；可用模式取决于硬件和授权。"
+        },
+        {
+          "label": "报文格式",
+          "value": "11 / 29 位 ID；Classic CAN 0–8 B，CAN FD 最高 64 B",
+          "notes": "支持 Classic RTR；CAN FD 支持 BRS 开启 / 关闭。"
+        },
+        {
+          "label": "Classic CAN 速率",
+          "value": "5 kbit/s–1 Mbit/s",
+          "notes": "通过上位机设置总线速率。"
+        },
+        {
+          "label": "CAN FD 数据速率",
+          "value": "最高 8 Mbit/s",
+          "notes": "仲裁段与数据段独立配置；需配套支持相应速率的收发器和总线布线。"
+        },
+        {
+          "label": "接收 ID 过滤",
+          "value": "支持标准帧 / 扩展帧 ID 范围过滤；每通道最多 16 条",
+          "notes": "建议在开始通信前配置。"
+        },
+        {
+          "label": "设备定时发送",
+          "value": "支持最多 16 项定时发送任务",
+          "notes": "设备合计；周期设置步进 100 µs，支持启动和停止。"
+        }
+      ]
+    },
+    {
+      "title": "时间戳",
+      "rows": [
+        {
+          "label": "接收硬件时间戳",
+          "value": "支持",
+          "notes": "通过 ZLG API 读取报文接收时间。"
+        },
+        {
+          "label": "发送完成硬件时间戳",
+          "value": "支持",
+          "notes": "开启发送回显后读取实际发送完成时间。"
+        },
+        {
+          "label": "时间戳分辨率（ZLG API）",
+          "value": "1 µs",
+          "notes": "接收报文和发送完成回显的时间戳均以 1 µs 为步进。"
+        }
+      ]
+    },
+    {
+      "title": "软件配套",
+      "rows": [
+        {
+          "label": "配套软件",
+          "value": "支持 ZCANPRO / ZXDoc / CANtest",
+          "notes": "安装 ZLG 驱动，选择对应设备型号。"
+        },
+        {
+          "label": "开发接口",
+          "value": "支持 Windows / ZLG API",
+          "notes": "使用 zlgcan.dll 进行二次开发。"
+        }
+      ]
+    }
+  ]
+}

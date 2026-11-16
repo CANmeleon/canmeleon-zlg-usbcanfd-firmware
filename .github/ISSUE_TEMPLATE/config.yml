@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Firmware issues and feature requests / 固件问题与新需求
+    url: https://github.com/CANmeleon/canmeleon-usb-can-firmware/issues/new/choose
+    about: Report firmware problems or request features in the main firmware repository.
+  - name: Device Manager issues / 设备管理器问题
+    url: https://github.com/CANmeleon/canmeleon-device-manager/issues
+    about: Report client installation, device connection or recovery problems.
