@@ -82,4 +82,4 @@ Firmware problems and new feature requests can be submitted as [Issues in the CA
 
 CANmeleon works with hardware makers, chip vendors and developers. For software/firmware integration, CANmeleon firmware porting and maintenance on your chip platform, or custom firmware development, contact [len2slaw@foxmail.com](mailto:len2slaw@foxmail.com). Include your board/MCU, target API, required features and schedule.
 
-[Open-source hardware and free adaptation program](https://github.com/CANmeleon#open-source-development-and-free-firmware-adaptations) · [Request an open-source board adaptation](https://github.com/CANmeleon/canmeleon-usb-can-firmware/issues/new?template=open_hardware_adaptation.md)
+[Open-source hardware projects](https://github.com/CANmeleon/canmeleon-hardware) · [Request an open-source board adaptation](https://github.com/CANmeleon/canmeleon-usb-can-firmware/issues/new?template=open_hardware_adaptation.md)
