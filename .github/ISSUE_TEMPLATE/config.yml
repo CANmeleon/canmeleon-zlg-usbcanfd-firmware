@@ -6,3 +6,6 @@ contact_links:
   - name: Device Manager issues / 设备管理器问题
     url: https://github.com/CANmeleon/canmeleon-device-manager/issues
     about: Report client installation, device connection or recovery problems.
+  - name: Commercial solutions and firmware services / 商业方案与固件服务
+    url: https://github.com/CANmeleon#contact-and-participate
+    about: Contact CANmeleon for hardware integration, chip porting and maintenance, or custom firmware.

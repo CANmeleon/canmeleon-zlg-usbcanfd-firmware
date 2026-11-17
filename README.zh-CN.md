@@ -78,4 +78,8 @@ CANmeleon ZLG USBCANFD 兼容固件让适用的 USB-CAN/CAN FD 硬件在 Windows
 
 [ZLG USBCANFD 参数表](docs/parameters/zlg-usbcanfd.zh-CN.md) · [参数 JSON](docs/parameters/zlg-usbcanfd.json) · [设备管理器问题](https://github.com/CANmeleon/canmeleon-device-manager/issues)
 
-[CANmeleon 硬件、OEM 集成与固件移植](https://github.com/CANmeleon/.github/blob/main/profile/README.zh-CN.md)
+## 生态参与与商业技术服务
+
+CANmeleon 面向硬件厂商、芯片厂商和开发者。软件/固件集成、芯片平台 CANmeleon 固件移植与维护，以及定制固件开发，可联系 [len2slaw@foxmail.com](mailto:len2slaw@foxmail.com)，并说明板卡/MCU、目标 API、所需功能和计划时间。
+
+[开源硬件与免费适配计划](https://github.com/CANmeleon/.github/blob/main/profile/README.zh-CN.md#开源建设与免费固件适配) · [申请开源板卡适配](https://github.com/CANmeleon/canmeleon-usb-can-firmware/issues/new?template=open_hardware_adaptation.md)
