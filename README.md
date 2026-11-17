@@ -2,9 +2,15 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-CANmeleon ZLG USBCANFD firmware connects supported CANmeleon USB-CAN/CAN FD hardware to ZCANPRO, ZXDoc, CANtest and ZLG API on Windows. This repository provides firmware capabilities, hardware requirements and installation instructions.
+CANmeleon ZLG USBCANFD-compatible firmware connects supported USB-CAN/CAN FD hardware to ZCANPRO, ZXDoc, CANtest and the ZLG API on Windows. Choose USBCANFD-200U or USBCANFD-400U mode for the matching hardware and license, then follow the firmware download and driver setup instructions.
 
 [Features and performance](#features-and-performance) · [Download and install](#download-and-install) · [Supported devices](https://canmeleon.com/en/firmware/devices/) · [Firmware catalog](https://github.com/CANmeleon/canmeleon-usb-can-firmware)
+
+## When to choose ZLG USBCANFD firmware
+
+- Work with CAN/CAN FD frames in ZCANPRO, ZXDoc or CANtest.
+- Develop a Windows application using the ZLG API and zlgcan.dll.
+- Choose 200U for two physical CAN channels or 400U for four, with the corresponding mode license. For a ControlCAN / Classic CAN workflow, see [ZLG USBCAN-II](https://canmeleon.com/en/firmware/zlg-usbcan-ii/).
 
 ## Supported hardware
 
@@ -60,9 +66,9 @@ Choose a device listed for **ZLG USBCANFD** in the [CANmeleon device catalog](ht
 
 **Which hardware receives this firmware?** Install it on compatible CANmeleon devices selected through the catalog and Device Manager. The mode name identifies the software interface; firmware updates for third-party-manufactured devices come from their manufacturers.
 
-**Does switching firmware add physical channels?** Channel count depends on the hardware and selected mode. A four-channel mode requires four physical CAN channels and its corresponding license.
+**Should I choose 200U or 400U?** Choose 200U for two physical CAN channels or 400U for four. Match the mode license and select the same device type in the host software.
 
-**Are these figures guaranteed for every workload?** Use the bus rates, frame length, direction, mode and short-duration qualifiers in each row. Configurable data-phase bit rate and typical frame throughput describe different properties.
+**How do I read the performance table?** Match the bus rates, frame length, direction and mode to your workload. Configurable bit rate describes the bus setting; frame throughput describes transmitted or received frames per second.
 
 **Where is the source code?** This repository contains documentation, parameter data and binary-download links. Refer to the component or release for its license.
 
@@ -71,3 +77,5 @@ Choose a device listed for **ZLG USBCANFD** in the [CANmeleon device catalog](ht
 Firmware problems and new feature requests can be submitted as [Issues in the CANmeleon firmware main repository](https://github.com/CANmeleon/canmeleon-usb-can-firmware/issues). Include the device model, active mode, firmware and driver versions, software/API, bus configuration and steps to reproduce.
 
 [ZLG USBCANFD parameter table](docs/parameters/zlg-usbcanfd.md) · [Parameter JSON (Chinese)](docs/parameters/zlg-usbcanfd.json) · [Device Manager issues](https://github.com/CANmeleon/canmeleon-device-manager/issues)
+
+[CANmeleon hardware, OEM integration and firmware porting](https://github.com/CANmeleon)
